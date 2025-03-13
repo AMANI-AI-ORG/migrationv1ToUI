@@ -20,7 +20,19 @@ Amani Ai AŞ.
 			<key>License</key>
 			<string>Copyright</string>
 			<key>Title</key>
-			<string>Amani</string>
+			<string>AmaniSDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright 2022
+Amani Ai AŞ.
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>AmaniUI</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

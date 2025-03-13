@@ -6,7 +6,8 @@
 //
 
 import UIKit
-import Amani
+import AmaniUI
+import AmaniSDK
 
 class ViewController: UIViewController {
   var customer:CustomerRequestModel?
@@ -24,15 +25,15 @@ class ViewController: UIViewController {
   
   private func setInit() {
 
-    customer = CustomerRequestModel(idCardNumber: "TC_NUM")
+    customer = CustomerRequestModel(idCardNumber: "TC_NO")
     
       // Initialize SDK
     guard let customerModel = customer else { return }
-    let amaniSDK = AmaniSDK.sharedInstance
+    let amaniSDK = AmaniUI.sharedInstance
       // Configure SDK
     amaniSDK.setDelegate(delegate: self)
     
-    amaniSDK.set(server: "SERVER_URL", token: "TOKEN", customer: customer!)
+    amaniSDK.set(server: "Server_URL", token: "Token", customer: customer!, apiVersion: .v1)
     /*
      if dont want to use location permissions please provide with useGeoLocation parameter
      amaniSDK.set(server: "SERVER_URL", token: "TOKEN", customer: customer,useGeoLocation: false)
@@ -44,43 +45,32 @@ class ViewController: UIViewController {
      amaniSDK.set(server: "SERVER_URL", token: "TOKEN", customer: customer,useGeoLocation: false,language: "tr")
      */
       // Start SDK
-    DispatchQueue.main.async {
-      amaniSDK.showSDK(overParent: self)
-    }
+  
+      
    
+    DispatchQueue.main.async {
+     amaniSDK.showSDK(on: self) { customerResponse, error in
+        debugPrint(customerResponse)
+        debugPrint(error)
+      }
+    }
+    
   }
 
 }
 
-extension ViewController:AmaniSDKDelegate{
-  func onConnectionError(error: String?) {
-      //do whatever when connection error
-  }
-  func onNoInternetConnection() {
-      //do whatever when no internet connection
-  }
-  func onEvent(name: String, Parameters: [String]?, type: String) {
-    /*
-     //type // Type returns list of EventType
-     //name // Amani Event Name. If there is more than one document,
-     returns the type of that document group else returns the type of the document
-     (the document type returns to you according to Amani standards).
-     
-     //parameter // Parameter returns Response, Error of upload.
-     If there is available it shows which step (like "0" front, "1" back)
-     (log: "XXX_SG_0", ["Continuebtn","0"], "buttonpressed" )
-     */
-    print("log : \(name), \(Parameters), \(type)")
-  }
-  func onKYCSuccess(CustomerId: Int) {
-      //do whatever when customer approved
+extension ViewController:AmaniUIDelegate{
+  func onKYCSuccess(CustomerId: String) {
+    debugPrint(CustomerId)
   }
   
-  func onKYCFailed(CustomerId: Int, Rules: [[String : String]]?) {
-      // Returns uncompleted fields
+  func onKYCFailed(CustomerId: String, Rules: [[String : String]]?) {
+    debugPrint(CustomerId, Rules)
   }
   
-  func onTokenExpired() {
-      // returns when token expired. Token needs to be refreshed and restart instance
+  func onError(type: String, Error: [AmaniSDK.AmaniError]) {
+    debugPrint(type, Error)
   }
+  
+
 }

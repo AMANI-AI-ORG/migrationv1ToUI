@@ -1,7 +1,13 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Amani
+## AmaniSDK
+
+Copyright 2022
+Amani Ai AŞ.
+
+
+## AmaniUI
 
 Copyright 2022
 Amani Ai AŞ.
