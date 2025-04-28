@@ -30,15 +30,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sFNdfNVlq+VP7xpSqDm726QhVQU=
+		rSYCjhTps3G7KlTgmRWoV/y54Z8=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jwNsBcasX5MqRcG8a8hqJpo+edg=
+		VJl1Igkc0NkVmcwZB6kxnwd4Vcc=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		go6fN58uCWgFFVFNT5N685kfEHc=
+		oOdixdKKNQ1mPObxoRF/9tVaE6Y=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		go6fN58uCWgFFVFNT5N685kfEHc=
+		oOdixdKKNQ1mPObxoRF/9tVaE6Y=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fQ1C37oMXOFN4cE67bcJnP7bcws=
+		XFOfceMZruNOFVNCCA0eh+L/zaA=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jwNsBcasX5MqRcG8a8hqJpo+edg=
+		VJl1Igkc0NkVmcwZB6kxnwd4Vcc=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1m52E3lTWjwR9mcBQ3j1AYgaC78=
+		p4OGE5ypSAa4KzG6g55u9Q5llck=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1m52E3lTWjwR9mcBQ3j1AYgaC78=
+		p4OGE5ypSAa4KzG6g55u9Q5llck=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jA2iWEXM3qTUX3bwHMrw+IeGjq0=
+		VZjikVugmn/mO9jjHvAZfZgtCfA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>holo.mlmodelc/coremldata.bin</key>
 		<data>
-		A6RZ5BdYhxm2YbnJQsd6M724hWc=
+		FZwhDdGnGNNQQpMiQYWv3TSPxT4=
 		</data>
 		<key>holo.mlmodelc/metadata.json</key>
 		<data>
@@ -193,14 +193,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xohQFCpK0fVikvrxwDUKjvbigAHTUxJTGW+BLceyjJw=
+			QGeSaIaQctH6K3ShwCu9x52oIKrosqAWkSU3uFZTy2Y=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PUlFIn53Qfdnfha1oGvz8LAjrD9pKhueNXIg9Rh1Sss=
+			EQ6+vXTnNtNni3KwjP3iTO5XHcZgTOrLz+8KVe9Bc8o=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -214,28 +214,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PUlFIn53Qfdnfha1oGvz8LAjrD9pKhueNXIg9Rh1Sss=
+			EQ6+vXTnNtNni3KwjP3iTO5XHcZgTOrLz+8KVe9Bc8o=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fmV1AtS6RD4Vj4mbzWEeOjhTgaB6L+DBnXJri1TQlfM=
+			BN83vJzlBtFGRGHFMhmvFAsI2u9qr3uDqvWoDvkEwT0=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xohQFCpK0fVikvrxwDUKjvbigAHTUxJTGW+BLceyjJw=
+			QGeSaIaQctH6K3ShwCu9x52oIKrosqAWkSU3uFZTy2Y=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0C9xJVC20yM1ql+DmzKabK5cy3g1fcVubZL8CQV/Xw=
+			S9QaI0pFyzXM2a/zP3tCjTGZWcO7QyqjAH7w+oDH2P8=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -249,14 +249,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0C9xJVC20yM1ql+DmzKabK5cy3g1fcVubZL8CQV/Xw=
+			S9QaI0pFyzXM2a/zP3tCjTGZWcO7QyqjAH7w+oDH2P8=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/Gugx/HlY4DMcaW8HmySLAzImZ9sBJyMzQIU22Sdjs=
+			hRsjCK4KvB8OIk6McWVMtx0HHGdSU5PYK/OZ+ZItf6k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -319,7 +319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yhb3GPGNa2Hqh2C0FAnpVEqMEdNzkJo+HCnbjJnQnzc=
+			hPMyr1O+zo7aASbKPUfGGiHkfd696fgOfNsypxOgcGU=
 			</data>
 		</dict>
 		<key>holo.mlmodelc/metadata.json</key>

@@ -28,6 +28,15 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct NFCRequest : Swift.Codable {
+  public var mrz: Swift.String
+  public var photo: AmaniSDK.Photo
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Photo : Swift.Codable {
+  public var height: Swift.Int
+  public var width: Swift.Int
+  public var base64: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
