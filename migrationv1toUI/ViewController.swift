@@ -25,7 +25,7 @@ class ViewController: UIViewController {
   
   private func setInit() {
 
-    customer = CustomerRequestModel(idCardNumber: "22180378472")
+    customer = CustomerRequestModel(idCardNumber: "TC_NO")
     
       // Initialize SDK
     guard let customerModel = customer else { return }
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
       // Configure SDK
     amaniSDK.setDelegate(delegate: self)
     
-    amaniSDK.set(server: "https://sandbox.amani.ai", token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5MywiZXhwIjoxNzQ1ODY2ODI5LCJ1c2VybmFtZSI6ImJlZHJpX3NhbmRib3hAYW1hbmkuYWkiLCJjdXN0b21lcl9pZCI6NDc5MSwiY29tcGFueV9pZCI6MX0.SyCrrwCc31Jhijrtlc0fnNISOqYwFt0T-5olV6PcCw4", customer: customer!, apiVersion: .v1)
+    amaniSDK.set(server: "Server_URL", token: "Token", customer: customer!, apiVersion: .v1)
     /*
      if dont want to use location permissions please provide with useGeoLocation parameter
      amaniSDK.set(server: "SERVER_URL", token: "TOKEN", customer: customer,useGeoLocation: false)
