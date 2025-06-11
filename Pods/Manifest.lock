@@ -1,14 +1,14 @@
 PODS:
-  - AmaniSDK (3.4.9):
+  - AmaniSDK (3.4.12):
     - OpenSSL-Universal (= 1.1.2301)
-  - AmaniUI (1.2.5):
+  - AmaniUI (1.2.7):
     - AmaniSDK (~> 3.4.7)
     - lottie-ios (~> 4.5)
-  - lottie-ios (4.5.1)
+  - lottie-ios (4.5.2)
   - OpenSSL-Universal (1.1.2301)
 
 DEPENDENCIES:
-  - AmaniUI (= 1.2.5)
+  - AmaniUI (= 1.2.7)
 
 SPEC REPOS:
   https://github.com/AmaniTechnologiesLtd/Mobile_SDK_Repo:
@@ -19,11 +19,11 @@ SPEC REPOS:
     - OpenSSL-Universal
 
 SPEC CHECKSUMS:
-  AmaniSDK: 3fa56b10aea5c7af4e869d6b0287d8f41c04afa5
-  AmaniUI: 76511cd64169ddb44368439c4697e0aa8e39cca0
-  lottie-ios: 248b380fa1b97d18e792c37d90da7ab2aa0d6562
+  AmaniSDK: 68b6ee8ad776e8b2f7acbc9e97350ca02554207c
+  AmaniUI: 72969dc19e28298b9d0999c6de5e3206dccffdd9
+  lottie-ios: 96784afc26ea031d3e2b6cae342a4b8915072489
   OpenSSL-Universal: ca89c20240633a77c776082ba76b7d90f992bf77
 
-PODFILE CHECKSUM: 777ba7d7776624f2abcb6787e761b4e6fa0b83d7
+PODFILE CHECKSUM: e2aef840f2f3abf59be6d07ea23db6fc98d54f06
 
 COCOAPODS: 1.16.2

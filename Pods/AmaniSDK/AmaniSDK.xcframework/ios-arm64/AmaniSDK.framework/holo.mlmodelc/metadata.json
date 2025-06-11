@@ -36,6 +36,9 @@
     "specificationVersion" : 3,
     "computePrecision" : "Float16",
     "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
     "availability" : {
       "macOS" : "10.14",
       "tvOS" : "12.0",
@@ -88,25 +91,25 @@
     ],
     "generatedClassName" : "holo",
     "userDefinedMetadata" : {
+      "classes" : "hologram",
       "confidence_threshold" : "0.25",
-      "iou_threshold" : "0.45",
-      "classes" : "hologram"
+      "iou_threshold" : "0.45"
     },
     "neuralNetworkLayerTypeHistogram" : {
       "Concat" : 13,
       "UnaryPower" : 3,
       "Convolution" : 60,
-      "ActivationSigmoid" : 60,
-      "ReshapeStatic" : 6,
-      "LoadConstantND" : 7,
-      "MultiplyBroadcastable" : 1,
+      "PoolingINVALID" : 3,
       "Transpose" : 3,
-      "UpsampleNearestNeighbor" : 2,
-      "PoolingMax" : 3,
+      "ReshapeStatic" : 6,
+      "UpsampleINVALID" : 2,
+      "MultiplyBroadcastable" : 1,
+      "LoadConstantND" : 7,
+      "ActivationSigmoid" : 60,
       "SplitND" : 3,
       "Squeeze" : 1,
-      "Add" : 10,
       "Multiply" : 70,
+      "Add" : 10,
       "ConcatND" : 4,
       "Slice" : 3
     },

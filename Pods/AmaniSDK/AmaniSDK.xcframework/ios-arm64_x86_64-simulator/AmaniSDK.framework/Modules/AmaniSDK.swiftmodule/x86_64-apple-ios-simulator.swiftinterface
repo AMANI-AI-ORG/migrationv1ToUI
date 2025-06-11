@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AmaniSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AmaniSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Accelerate
 import CommonCrypto
@@ -25,6 +25,7 @@ import UIKit
 import Vision
 import WebKit
 import _Concurrency
+import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct NFCRequest : Swift.Codable {
@@ -289,6 +290,7 @@ public struct FaceImageInfo : Swift.Equatable {
     case frowning
     public static func from(_ code: Swift.Int) -> AmaniSDK.FaceImageInfo.Expression?
     public init?(rawValue: Swift.Int)
+    @available(iOS 13, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -306,6 +308,7 @@ public struct FaceImageInfo : Swift.Equatable {
     case unknown
     public static func from(_ code: Swift.Int) -> AmaniSDK.FaceImageInfo.EyeColor?
     public init?(rawValue: Swift.Int)
+    @available(iOS 13, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -317,6 +320,7 @@ public struct FaceImageInfo : Swift.Equatable {
     case tokenFrontal
     public static func from(_ code: Swift.Int) -> AmaniSDK.FaceImageInfo.FaceImageType?
     public init?(rawValue: Swift.Int)
+    @available(iOS 13, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -336,6 +340,7 @@ public struct FaceImageInfo : Swift.Equatable {
     case distortingMedicalCondition
     public static func from(_ code: Swift.Int) -> AmaniSDK.FaceImageInfo.Features?
     public init?(rawValue: Swift.Int)
+    @available(iOS 13, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -355,6 +360,7 @@ public struct FaceImageInfo : Swift.Equatable {
     case unknown
     public static func from(_ code: Swift.Int) -> AmaniSDK.FaceImageInfo.HairColor?
     public init?(rawValue: Swift.Int)
+    @available(iOS 13, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -368,6 +374,7 @@ public struct FaceImageInfo : Swift.Equatable {
     case other
     public static func from(_ code: Swift.Int) -> AmaniSDK.FaceImageInfo.ImageColorSpace?
     public init?(rawValue: Swift.Int)
+    @available(iOS 13, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -378,6 +385,7 @@ public struct FaceImageInfo : Swift.Equatable {
     case jpeg2000
     public static func from(_ code: Swift.Int) -> AmaniSDK.FaceImageInfo.ImageDataType?
     public init?(rawValue: Swift.Int)
+    @available(iOS 13, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -394,6 +402,7 @@ public struct FaceImageInfo : Swift.Equatable {
     case unknown
     public static func from(_ code: Swift.Int) -> AmaniSDK.FaceImageInfo.SourceType?
     public init?(rawValue: Swift.Int)
+    @available(iOS 13, *)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -494,9 +503,7 @@ public class PassportReader : ObjectiveC.NSObject {
   public init(logLevel: AmaniSDK.LogLevel = .info, masterListURL: Foundation.URL? = nil)
   public func setMasterListURL(_ masterListURL: Foundation.URL)
   public func overrideNFCDataAmountToRead(amount: Swift.Int)
-  #if compiler(>=5.3) && $AsyncAwait
   public func readPassport(mrzKey: Swift.String, tags: [AmaniSDK.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((AmaniSDK.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> AmaniSDK.NFCPassportModel
-  #endif
   @objc deinit
 }
 @available(iOS 13, *)
@@ -875,9 +882,11 @@ public enum DataGroupId : Swift.Int, Swift.CaseIterable {
   public func getName() -> Swift.String
   public static func getIDFromName(name: Swift.String) -> AmaniSDK.DataGroupId
   public init?(rawValue: Swift.Int)
+  @available(iOS 13, macOS 10.15, *)
   public typealias AllCases = [AmaniSDK.DataGroupId]
+  @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.Int
-  public static var allCases: [AmaniSDK.DataGroupId] {
+  nonisolated public static var allCases: [AmaniSDK.DataGroupId] {
     get
   }
   public var rawValue: Swift.Int {
@@ -1121,7 +1130,7 @@ public enum LogLevel : Swift.Int, Swift.CaseIterable {
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [AmaniSDK.LogLevel]
   public typealias RawValue = Swift.Int
-  public static var allCases: [AmaniSDK.LogLevel] {
+  nonisolated public static var allCases: [AmaniSDK.LogLevel] {
     get
   }
   public var rawValue: Swift.Int {
@@ -1203,9 +1212,7 @@ public class DataGroup7 : AmaniSDK.DataGroup {
 @available(iOS 13, *)
 public class PACEHandler {
   public init(cardAccess: AmaniSDK.CardAccess, tagReader: AmaniSDK.TagReader) throws
-  #if compiler(>=5.3) && $AsyncAwait
   public func doPACE(mrzKey: Swift.String) async throws
-  #endif
   @objc deinit
 }
 public struct MrzModel : Swift.Codable {
@@ -1289,6 +1296,7 @@ public enum CertificateItem : Swift.String {
   case notBefore
   case notAfter
   public init?(rawValue: Swift.String)
+  @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1377,7 +1385,7 @@ public struct FileWithType {
   public init(data: Foundation.Data, dataType: Swift.String)
 }
 extension UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var shouldAutorotate: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var shouldAutorotate: Swift.Bool {
     @objc get
   }
 }
@@ -1498,9 +1506,7 @@ public class ScanNFC {
   public static let sharedInstance: AmaniSDK.ScanNFC
   public func setType(type: Swift.String)
   public func setIcons(newReadIcon: Swift.Character = "🟢", newBlankIcon: Swift.Character = "⚪️")
-  #if compiler(>=5.3) && $AsyncAwait
   public func start(nviData: AmaniSDK.NviModel) async throws -> AmaniSDK.NFCRequest?
-  #endif
   public func upload(location: CoreLocation.CLLocation? = nil, completion: @escaping (Swift.Bool?) -> Swift.Void)
   @objc deinit
 }
@@ -1685,6 +1691,7 @@ public enum DocTypeEnum : Swift.String {
   case TD2
   case OTHER
   public init?(rawValue: Swift.String)
+  @available(iOS 13, macOS 10.15, *)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1745,10 +1752,8 @@ public class IDCapture {
   public func start(stepId: Swift.Int = steps.front.rawValue, completion: @escaping (UIKit.UIImage) -> Swift.Void) throws -> UIKit.UIView?
   public func upload(location: CoreLocation.CLLocation? = nil, completion: @escaping (Swift.Bool?) -> Swift.Void)
   public func getMrz(cb: @escaping ((Swift.String?) -> Swift.Void))
-  #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 13, *)
   public func startNFC(nvi: AmaniSDK.NviModel) async -> Swift.Bool
-  #endif
   @available(iOS 13, *)
   public func setNfcIcons(newReadIcon: Swift.Character = "🟢", newBlankIcon: Swift.Character = "⚪️")
   @objc deinit
@@ -1760,9 +1765,7 @@ public class BACHandler {
   public var kifd: [Swift.UInt8]
   public init()
   public init(tagReader: AmaniSDK.TagReader)
-  #if compiler(>=5.3) && $AsyncAwait
   public func performBACAndGetSessionKeys(mrzKey: Swift.String) async throws
-  #endif
   public func sessionKeys(data: [Swift.UInt8]) throws -> ([Swift.UInt8], [Swift.UInt8], [Swift.UInt8])
   @objc deinit
 }

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		hRGcJmxJx8DzqRTRUXuB4Ebl+Z0=
+		XqHEBGDqdZSedMG57RxxrLAP1Wg=
 		</data>
 		<key>AutoSelfieCaptureView.nib</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>DocumentVC.nib</key>
 		<data>
-		/zgBoZPGex9B4aN3LMeD98a/K34=
+		gRdLjA0rXLbpgt0lDKzCWeDGdo4=
 		</data>
 		<key>Headers/Amani.h</key>
 		<data>
@@ -22,55 +22,55 @@
 		</data>
 		<key>Headers/AmaniSDK-Swift.h</key>
 		<data>
-		PDe+ACqA4kIhZgn+db7gQAlk/tM=
+		/P82FpFYfGeXQiVyuLsjEIkxFvQ=
 		</data>
 		<key>IDCaptureView.nib</key>
 		<data>
-		xuwuecqJZGZbr8n+j52zm5iDTdA=
+		98dF1Dr/Pd9ZyRz6pryipARGqFQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rSYCjhTps3G7KlTgmRWoV/y54Z8=
+		sml+b6oi/k6PYhof0zXTSW9g3ac=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VJl1Igkc0NkVmcwZB6kxnwd4Vcc=
+		9Ddz4qtM1kDLH2jC0Ts94wW6Bis=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oOdixdKKNQ1mPObxoRF/9tVaE6Y=
+		6SIkWmDRAchJCXuQ0Pq19kuLx4U=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PmSqdK4+z7iDITcG3eo3w8/CdwU=
+		ZdXLQbXZGA4qwNEnmd+gUm2BcL8=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oOdixdKKNQ1mPObxoRF/9tVaE6Y=
+		6SIkWmDRAchJCXuQ0Pq19kuLx4U=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XFOfceMZruNOFVNCCA0eh+L/zaA=
+		dDaqECeykcK9NC72iysjzT3UtAU=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VJl1Igkc0NkVmcwZB6kxnwd4Vcc=
+		9Ddz4qtM1kDLH2jC0Ts94wW6Bis=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		p4OGE5ypSAa4KzG6g55u9Q5llck=
+		8pKgH2+Kywvb80sj/UMFTaZoXiQ=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0osGz2eq5KGNb0YZpwUczJ1V9FU=
+		Kk+OklwNw9fHF/wyCC3uEyQjW5U=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		p4OGE5ypSAa4KzG6g55u9Q5llck=
+		8pKgH2+Kywvb80sj/UMFTaZoXiQ=
 		</data>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VZjikVugmn/mO9jjHvAZfZgtCfA=
+		gQqYIBZNoTco3+fy5mc4xhD4AKc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>VideoCallView.nib</key>
 		<data>
-		T38+iOWDJFnteCprT8Mg/9LiSGw=
+		PxmeIhyNJAODQekXYC9OKyaBy6M=
 		</data>
 		<key>holo.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>holo.mlmodelc/metadata.json</key>
 		<data>
-		yvm3wdTaTN/Ry0gzOFTjJriXDoc=
+		0ZMWWKpTaWlwCfLGs6ikFEj9Qcc=
 		</data>
 		<key>holo.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b9VqQpz8TR9Q0ovE1wffGuKxj69sXyM+FL5eX2w2mV0=
+			JVe5B7vrY4LhGoas+I0f2cNOqDQ4gaJK32Dc0G34nLs=
 			</data>
 		</dict>
 		<key>AutoSelfieCaptureView.nib</key>
@@ -165,7 +165,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7pdSSPIO4MRVFtfEF4ip4OAn1cMkRU6kzDw/kZZxdhs=
+			Tgs+yG7doLz9rDJB7qdGvdwvKDXDZblYmfCV0bK+vDE=
 			</data>
 		</dict>
 		<key>Headers/Amani.h</key>
@@ -179,84 +179,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fU20jKE1tI4b0GFMhbhDGt96ZGdzqAfY8B/MU7o7D0c=
+			1iWYS+BcMIZr+2jqN0tH2FgQw+evztwFpNLsFLcMKcc=
 			</data>
 		</dict>
 		<key>IDCaptureView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cAM7y8GnTSe3JfpAftkAZzv5JwGNalblyMs+dxbQRFM=
+			kpy6J3dRzvgskDeOVsGppX1BnFiZgKhnCFbXjASJt+M=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGeSaIaQctH6K3ShwCu9x52oIKrosqAWkSU3uFZTy2Y=
+			aUxQA3aYo+EMWUmogW18peDTN+i0+RrcszwiscWsvek=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EQ6+vXTnNtNni3KwjP3iTO5XHcZgTOrLz+8KVe9Bc8o=
+			6TvpscOq6OCiZJ4xwUXqzrWU+nglrnEh0ObAmg3kMMY=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zn8VpTRFdLII4I6xKKhAJDSHC1eNLC8EDy5BDu4Xskg=
+			a1ecTQueSejraWhYpXnJgmYZQaZvE/gJsAvLQHDJY3A=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EQ6+vXTnNtNni3KwjP3iTO5XHcZgTOrLz+8KVe9Bc8o=
+			6TvpscOq6OCiZJ4xwUXqzrWU+nglrnEh0ObAmg3kMMY=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BN83vJzlBtFGRGHFMhmvFAsI2u9qr3uDqvWoDvkEwT0=
+			zORDDLjPOLwsDAUqvvRsgqY/xMNUcXYCkSugjNLwbMw=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGeSaIaQctH6K3ShwCu9x52oIKrosqAWkSU3uFZTy2Y=
+			aUxQA3aYo+EMWUmogW18peDTN+i0+RrcszwiscWsvek=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9QaI0pFyzXM2a/zP3tCjTGZWcO7QyqjAH7w+oDH2P8=
+			vWXvunedQuj4PM1mq92fhpsujAArfZ6GXggV8Qellz4=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+av9Y5BOynOGv3yI0xmL5MEh0x6dCcIZbRr+t7VK91U=
+			GseRr7qcTlJYRrACipGisvKPvZW/3kPl2EilPlxOJ7w=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9QaI0pFyzXM2a/zP3tCjTGZWcO7QyqjAH7w+oDH2P8=
+			vWXvunedQuj4PM1mq92fhpsujAArfZ6GXggV8Qellz4=
 			</data>
 		</dict>
 		<key>Modules/AmaniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hRsjCK4KvB8OIk6McWVMtx0HHGdSU5PYK/OZ+ZItf6k=
+			pHFOUDARw9nI5PvHfY+2adi93MeVeTxSjqMx73JYbxU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -305,7 +305,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cX6kM2dHnf+2PzFw75Q4DF2ph2VZNLbDZre9ZDPMZbw=
+			ASFx3oRyZLBSvRL5UaGzmOwDBU7wwuQqVLFIkp5HeQg=
 			</data>
 		</dict>
 		<key>holo.mlmodelc/analytics/coremldata.bin</key>
@@ -326,7 +326,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6MfcZQuReAYtDKbv2VRKSIZWUiWfDHNJQ7x/OwrqaRg=
+			kBL00misaqSTV7ZaOD/caq/i9evgTrA8xm0srJvm944=
 			</data>
 		</dict>
 		<key>holo.mlmodelc/model0/analytics/coremldata.bin</key>
